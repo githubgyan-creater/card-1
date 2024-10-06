@@ -1,0 +1,72 @@
+
+.body {
+     background-color: rgb(231, 238, 235);
+display: flex;
+}
+   .card {
+     height: 530px;
+     width: 350px;
+     background-color: rgb(244, 190, 190);
+     border-radius: 10px;
+
+
+   }
+
+   .image {
+     padding: 10px;
+     border-radius: 10px;
+
+   }
+
+   .image img {
+     border-radius: 10px;
+   }
+
+   .capsules {
+     padding-left: 15px;
+     border: none;
+    }
+
+   .capsules span {
+
+     border: 1px solid grey;
+
+     padding: 4px 10px;
+     border-radius: 10px;
+     font-size: 15px;
+     font-family: sans-serif;
+     background-color: rgb(41, 227, 227);
+color:rgb(149, 144, 144);
+cursor: pointer;
+   }
+
+   .content p {
+     font-size: 17px;
+     color:rgb(74, 38, 38) ;
+   }
+
+   .content {
+     padding: 15px;
+   }
+   .button{
+    text-align: center;
+    
+  }
+  .button button{
+    background-color: rgb(165, 165, 216);
+  border:0px;
+  font-size:15px;
+  border-radius:15px;
+  padding:8px 10px;
+  color: rgb(186, 51, 55);
+  }
+  .content h1{
+    color: rgb(64, 65, 69);
+    font-size:30px;
+
+  }
+  .button button:hover{
+    background-color: rgb(194, 225, 246);
+    color: rgb(10, 136, 214);
+    cursor: pointer;
+  }
